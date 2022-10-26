@@ -1,6 +1,7 @@
 from ting_file_management import file_management
 import sys
 
+
 def process(path_file, instance):
     for i in range(len(instance)):
         if instance.search(i) == path_file:
